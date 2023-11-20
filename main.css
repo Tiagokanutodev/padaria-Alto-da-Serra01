@@ -1,0 +1,122 @@
+/*Tipo da fonte Roboto*/
+body
+{
+    font-family: Roboto, sans-serif;
+}
+
+
+/*Cor de fundo de tela*/
+.navbar
+{
+    background-color: rgb(141, 141, 9);
+}
+
+
+/*Cor do botao, Cor das letras dentro do botao*/
+#cabecalho .nav .nav-link.active
+{
+    background-color: rgb(252, 252, 0);
+    color: #5c5c5c;
+}
+
+
+/*Cor das palavras dos Links, e do H1*/
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover
+{
+    color: white;
+}
+
+
+/*Cor do botao hamburguer*/
+.navbar-toggler
+{
+    background-color: #ffeae6;
+}
+
+.section-title
+{
+    font-family: Pacifico, cursive;
+    font-size: 40px;
+}
+
+
+
+#sobre-o-restaurante, #cardapio
+{
+    background-color: #ffeae6;
+}
+
+.text-colored
+{
+    color: rgb(141, 141, 9);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button
+{
+    background-color: rgb(141, 141, 9);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover
+{
+    color: rgb(141, 141, 9);
+}
+
+.social-links li
+{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a
+{
+    text-decoration: none;
+}
+/**/
+
+
+.form-control label
+{
+    font-weight: bold;
+    display: block;              /*deixa um abaixo do outro*/
+}
+.form-control
+{
+    margin-bottom: 16px;
+}
+.form-control input,
+.form-control textarea
+{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-control textarea
+{
+    resize: none;
+    height: 120px;
+}
+
+form
+{
+    max-width: 360px;
+}
+
+form button
+{
+    max-width: 120px;
+}
+
+
+@media (max-width: 767px)
+{
+    .carousel-item
+    {
+        height: 280px;
+    }
+}
